@@ -8,8 +8,8 @@ function PlayerComponent() {
            <ReactPlayer
                ref={playerRef}
                url="video/moon.mp4"
-               width="720"
-               height="480"
+               width={720}
+               height={480}
                controls={true}
            />
       </div>
