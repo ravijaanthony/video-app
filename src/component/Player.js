@@ -1,8 +1,5 @@
 import ReactPlayer from 'react-player';
 import React, { useRef } from 'react';
-// import moon_video from "./public/video/moon.mp4";
-
-// const VIDEO_PATH = moon_video;
 
 function PlayerComponent() {
    const playerRef = useRef(null);
