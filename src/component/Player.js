@@ -1,5 +1,5 @@
-import ReactPlayer from 'react-player';
 import React, { useRef } from 'react';
+import ReactPlayer from 'react-player';
 
 function PlayerComponent() {
    const playerRef = useRef(null);
